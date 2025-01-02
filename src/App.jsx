@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Outbound from "./pages/outbound";
+import Inbound from "./pages/inbound";
 import Blogs from "./pages/Blogs";
 import NoPage from "./pages/NoPage";
 import PlacesRoute from "./pages/PlacesRoute";
@@ -34,6 +35,7 @@ const App = () => {
             <Route path="blogs/:id" element={<BlogsDetails />} />
             <Route path="best-places" element={<PlacesRoute />} />
             <Route path="about" element={<About />} />
+            <Route path="inbound" element={<Inbound></Inbound>}></Route>
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>

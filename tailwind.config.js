@@ -20,6 +20,9 @@ export default {
           "2xl": "6rem",
         },
       },
+      boxShadow: {
+        'custom': '-1rem 0 3rem black', // Custom box-shadow
+      },
     },
   },
   plugins: [],
